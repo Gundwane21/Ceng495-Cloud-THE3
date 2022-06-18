@@ -20,7 +20,7 @@ public class Total {
    * Mapper class
    **/
   public static class TokenizerMapper
-       extends Mapper<LongWritable, Text, Text, DoubleWritable>{
+       extends Mapper<LongWritable, Text, Text, LongWritable>{
 
      @Override
     public void map(LongWritable key, Text value, Context context
@@ -33,13 +33,11 @@ public class Total {
             
             else{
 
-            String[] parsedLine = line.split(",");
-            System.out.println(parsedLine);
-            // if there is no entry bigger than 2^32 use int instead
-            double duration = Double.parseDouble(parsedLine[2]);
-            DoubleWritable durationWritable = new DoubleWritable(duration);
+            String[] parsedLine = line.split("\t");
+            long duration = Long.parseLong(parsedLine[2] );
+            LongWritable durationWritable = new LongWritable(duration);
             Text songName = new Text(parsedLine[1]);
-            System.out.println(String.format("songName: %s, duration: %f ", parsedLine[1] ,duration));
+            System.out.println(String.format("songName: %s, duration: %d ", parsedLine[1] ,duration));
                 
             context.write(songName,durationWritable);
             }
@@ -48,42 +46,41 @@ public class Total {
 			
 	    }
     }
-
-    
-
   }
 
   /**
    *Reducer class
    *
    **/
-  public static class DoubleSumReducer
-       extends Reducer<Text,DoubleWritable,Text,IntWritable> {
-        private DoubleWritable result = new DoubleWritable(0);
+  public static class LongSumReducer
+       extends Reducer<Text,LongWritable,Text,LongWritable> {
+        private LongWritable result = new LongWritable(0);
 
-        public void reduce(Text key, DoubleWritable values,
+        private long sum = 0;
+        public void reduce(Text key, Iterable<LongWritable> values,
                            Context context
                            ) throws IOException, InterruptedException {
-
-            int sum = 0;
-         result.set(sum);
-          context.write(key, result);
+          for(LongWritable val: values){
+            System.out.println("value"+ val.get());
+            sum +=  val.get();
+          }
         }
 
-  }
+    protected void cleanup(Context context) throws IOException,
+            InterruptedException {
+              context.write(new Text("total"),new LongWritable(sum));
+    }
+  } 
 
   public static void main(String[] args) throws Exception {
     Configuration conf = new Configuration();
     Job job = Job.getInstance(conf,  "Total");
     job.setJarByClass(Total.class);
     job.setMapperClass(TokenizerMapper.class);
-//    job.setCombinerClass(DoubleSumReducer.class);
-//    job.setReducerClass(DoubleSumReducer.class);
-//    job.setOutputKeyClass(Text.class);
-//    job.setOutputValueClass(DoubleWritable.class);
-      job.setOutputKeyClass(Text.class);
-      job.setOutputValueClass(DoubleWritable.class);
-      FileInputFormat.addInputPath(job, new Path(args[0]));
+    job.setReducerClass(LongSumReducer.class);
+    job.setOutputKeyClass(Text.class);
+    job.setOutputValueClass(LongWritable.class);
+    FileInputFormat.addInputPath(job, new Path(args[0]));
     FileOutputFormat.setOutputPath(job, new Path(args[1]));
     System.exit(job.waitForCompletion(true) ? 0 : 1);
   }
