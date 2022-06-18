@@ -13,7 +13,7 @@ import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
-public class Total {
+public class Average {
 
   /**
    *
@@ -57,25 +57,27 @@ public class Total {
         private LongWritable result = new LongWritable(0);
 
         private long sum = 0;
+	private long count = 0;
         public void reduce(Text key, Iterable<LongWritable> values,
                            Context context
                            ) throws IOException, InterruptedException {
           for(LongWritable val: values){
             System.out.println("value"+ val.get());
             sum +=  val.get();
+	    count++;	
           }
         }
 
     protected void cleanup(Context context) throws IOException,
             InterruptedException {
-              context.write(new Text("total"),new LongWritable(sum));
+              context.write(new Text("average"),new LongWritable(sum/count));
     }
   } 
 
   public static void main(String[] args) throws Exception {
     Configuration conf = new Configuration();
-    Job job = Job.getInstance(conf,  "total");
-    job.setJarByClass(Total.class);
+    Job job = Job.getInstance(conf,  "average");
+    job.setJarByClass(Average.class);
     job.setMapperClass(TokenizerMapper.class);
     job.setReducerClass(LongSumReducer.class);
     job.setOutputKeyClass(Text.class);
