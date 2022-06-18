@@ -17,3 +17,4 @@ clean:
 	rm Hw3.jar
 	hdfs dfs -rm -r /user/melisuzun/output_total
 	hdfs dfs -rm -r /user/melisuzun/output_average
+	hdfs dfs -rm -r /user/melisuzun/output_popular
