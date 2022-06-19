@@ -53,7 +53,7 @@ public class Average {
    *
    **/
   public static class LongSumReducer
-       extends Reducer<Text,LongWritable,Text,LongWritable> {
+       extends Reducer<Text,LongWritable,Text,DoubleWritable> {
         private LongWritable result = new LongWritable(0);
 
         private long sum = 0;
@@ -70,7 +70,7 @@ public class Average {
 
     protected void cleanup(Context context) throws IOException,
             InterruptedException {
-              context.write(new Text("average"),new LongWritable(sum/count));
+              context.write(new Text("average"),new DoubleWritable( (double) sum/ (double) count));
     }
   } 
 
