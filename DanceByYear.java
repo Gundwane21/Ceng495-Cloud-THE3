@@ -12,7 +12,7 @@ import org.apache.hadoop.mapreduce.lib.output.*;
 import org.apache.hadoop.util.*;
 import org.apache.hadoop.io.IntWritable;
 
-public class ExplicitlyPopular extends Configured implements Tool
+public class DanceByYear extends Configured implements Tool
 {
    //Map class
 	
@@ -32,12 +32,12 @@ public class ExplicitlyPopular extends Configured implements Tool
 
             String[] parsedLine = line.split("\t");
 
-		// put only explicit and popularity
-            String exAndPop =  parsedLine[3] + '\t' + parsedLine[5] ;
+		// put only year and danceability
+            String yearAndDance =  parsedLine[4] + '\t' + parsedLine[6] ;
 	    
-            Text explicitAndPopularity = new Text(exAndPop);
+            Text yearAndDanceText = new Text(yearAndDance);
             Text songName = new Text(parsedLine[1]);    
-            context.write(songName,explicitAndPopularity);
+            context.write(songName,yearAndDanceText);
             }
         }catch(Exception e){
 		e.printStackTrace();
@@ -51,7 +51,7 @@ public class ExplicitlyPopular extends Configured implements Tool
 	
    public static class ReduceClass extends Reducer<Text,Text,Text,DoubleWritable>
    {
-      private int sum = 0;
+      private double sum = 0;
       private int counter = 0;
       public void reduce(Text key, Iterable <Text> values, Context context) throws IOException, InterruptedException
       {
@@ -59,8 +59,8 @@ public class ExplicitlyPopular extends Configured implements Tool
          for (Text val : values)
          {
             String [] str = val.toString().split("\t");
-            int popularity = Integer.parseInt(str[1]);
-            sum += popularity;
+            double danceability = Double.parseDouble(str[1]);
+            sum += danceability;
 	         counter++; 
 	      }
 			
@@ -71,7 +71,7 @@ public class ExplicitlyPopular extends Configured implements Tool
                                        InterruptedException
       {
       if (counter > 0){
-         context.write(new Text("Average"), new DoubleWritable((double) sum/ (double) counter) );
+         context.write(new Text("Average Danceability"), new DoubleWritable(sum/ (double) counter) );
          }
       }
    }
@@ -85,20 +85,23 @@ public class ExplicitlyPopular extends Configured implements Tool
       public int getPartition(Text key, Text value, int numReduceTasks)
       {
          String[] str = value.toString().split("\t");
-         boolean explicit = Boolean.parseBoolean(str[0]);        
+         int year = Integer.parseInt(str[0]);        
  
          if(numReduceTasks == 0)
          {
             return 0;
          }
          
-         if(explicit)
+         if(year <= 2002)
          {
             return 0 % numReduceTasks;
          }
-         else
+         else if (year > 2002 && year <= 2012)
          {
             return 1 % numReduceTasks;
+         }
+         else{
+            return 2 % numReduceTasks;
          }
       }
    }
@@ -108,8 +111,8 @@ public class ExplicitlyPopular extends Configured implements Tool
    {
       Configuration conf = getConf();
 		
-      Job job = new Job(conf, "explicitlyPopular");
-      job.setJarByClass(ExplicitlyPopular.class);
+      Job job = new Job(conf, "dancebyyear");
+      job.setJarByClass(DanceByYear.class);
 		
       FileInputFormat.setInputPaths(job, new Path(arg[0]));
       FileOutputFormat.setOutputPath(job,new Path(arg[1]));
@@ -136,7 +139,7 @@ public class ExplicitlyPopular extends Configured implements Tool
    
    public static void main(String ar[]) throws Exception
    {
-      int res = ToolRunner.run(new Configuration(), new ExplicitlyPopular(),ar);
+      int res = ToolRunner.run(new Configuration(), new DanceByYear(),ar);
       System.exit(0);
    }
 }

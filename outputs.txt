@@ -1,0 +1,851 @@
+1 - total:
+total	457496249
+2- average:
+average	228748.1245
+4 - explicit
+Average	61.48457350272232
+Average	59.259489302967566
+5 - dancebyyear
+Average Danceability	0.6777266881028938
+Average Danceability	0.6550627530364364
+Average Danceability	0.6803138373751784 
+3 - popular: 834 entry olcak
+"H ""two"" O"	1
+*NSYNC	4
+112	2
+2 Chainz	2
+21 Savage	2
+2Pac	2
+3 Doors Down	5
+3LW	1
+3OH!3	3
+5 Seconds of Summer	3
+50 Cent	9
+6ix9ine	2
+99 Souls	1
+A Boogie Wit da Hoodie	3
+A$AP Ferg	1
+A$AP Rocky	1
+A.R. Rahman	1
+A1	1
+AJ Tracey	1
+AJR	1
+AWOLNATION	1
+Aaliyah	4
+Adam Lambert	2
+Adele	7
+Afroman	1
+Agnes	1
+Akon	8
+Alan Walker	1
+Alanis Morissette	1
+Alec Benjamin	1
+Alesha Dixon	1
+Alessia Cara	3
+Alesso	2
+Alex & Sierra	1
+Alex Clare	1
+Alex Gaudino	1
+Alexandra Burke	2
+Alexandra Stan	1
+Alice Deejay	1
+Alicia Keys	6
+Alien Ant Farm	1
+All Saints	1
+All Time Low	1
+Aloe Blacc	1
+Alok	1
+AlunaGeorge	1
+Amanda Perez	1
+Amerie	1
+Amy Winehouse	3
+Anastacia	3
+Angie Martinez	1
+Anne-Marie	3
+Anuel AA	2
+Arctic Monkeys	5
+Ariana Grande	14
+Armand Van Helden	1
+Armin van Buuren	1
+Asaf Avidan & the Mojos	1
+Ashanti	6
+Asher Roth	1
+Ashlee Simpson	1
+Ashley O	1
+Astrid S	1
+Atomic Kitten	3
+Audioslave	1
+Ava Max	2
+Avant	2
+Avicii	10
+Avril Lavigne	10
+Axwell /\ Ingrosso	1
+Ayo & Teo	1
+Azealia Banks	1
+B Young	1
+B.o.B	3
+B2K	2
+BLACKPINK	1
+BTS	1
+Baauer	1
+Baby Bash	3
+Baby Boy Da Prince	1
+Backstreet Boys	3
+Bad Bunny	2
+Bad Meets Evil	1
+Baha Men	1
+Banx & Ranx	1
+Basement Jaxx	2
+Basshunter	2
+Bastille	3
+Bazzi	1
+Becky G	2
+Benny Benassi	1
+Beyoncé	16
+Big Brovaz	1
+Big Sean	2
+Big Shaq	1
+Big Tymers	1
+Billie Eilish	5
+Bingo Players	1
+Birdy	2
+Black Eyed Peas	14
+Blake Shelton	2
+Blanco Brown	1
+Blazin' Squad	1
+BlocBoy JB	1
+Blu Cantrell	1
+Blue	5
+Blueface	1
+Bob Sinclar	2
+Bobby Shmurda	1
+Bobby V.	1
+Bodyrockers	1
+Bomfunk MC's	1
+Bon Jovi	1
+Bone Thugs-N-Harmony	1
+Bow Wow	4
+Boys Like Girls	2
+Brandy	3
+Brian McFadden	1
+Bridgit Mendler	1
+Britney Spears	19
+Bruno Mars	12
+Bryson Tiller	3
+Bubba Sparxxx	1
+Burak Yeter	1
+Busta Rhymes	4
+BØRNS	1
+CNCO	1
+Cali Swag District	1
+Calvin Harris	20
+Camila Cabello	3
+Camille Jones	1
+Cam’ron	1
+Capital Cities	1
+Cardi B	5
+Carl Thomas	1
+Carly Rae Jepsen	1
+Carrie Underwood	2
+Cascada	2
+Case	1
+Cashmere Cat	1
+Cassie	1
+Chad Kroeger	1
+Chamillionaire	1
+Charlene Soraia	1
+Charli Baltimore	1
+Charli XCX	1
+Charlie Puth	6
+Chase & Status	1
+Cheat Codes	2
+Cher Lloyd	1
+Cherish	1
+Cheryl	1
+Chicane	1
+Childish Gambino	1
+Chingy	4
+Chip	1
+Chord Overstreet	1
+Chris Brown	17
+Christina Aguilera	8
+Christina Milian	3
+Christina Perri	3
+Ciara	8
+Clean Bandit	5
+Cobra Starship	2
+Colby O'Donis	1
+Coldplay	13
+Counting Crows	1
+Craig David	5
+Crazy Frog	1
+Crazy Town	1
+Creed	4
+Céline Dion	2
+D12	3
+D4L	2
+DB Boulevard	1
+DEV	1
+DJ Casper	1
+DJ Fresh	3
+DJ Khaled	4
+DJ Pied Piper & The Masters Of Ceremonies	1
+DJ Sammy	1
+DJ Snake	7
+DJ Ötzi	1
+DMX	2
+DNCE	1
+Da Brat	1
+DaBaby	1
+Daddy Yankee	3
+Daft Punk	3
+Daniel Bedingfield	4
+Daniel Powter	1
+Danity Kane	1
+Darude	1
+Daughtry	1
+Dave	1
+David Archuleta	1
+David Banner	1
+David Guetta	18
+Daya	1
+Dean Lewis	1
+Debelah Morgan	1
+Default	1
+Delta Goodrem	2
+Dem Franchize Boyz	1
+Demi Lovato	4
+Dennis Lloyd	1
+Deorro	1
+Desiigner	2
+Destiny's Child	10
+Diddy	3
+Diddy - Dirty Money	1
+Dido	3
+Dirty Vegas	1
+Disclosure	3
+Disturbing Tha Peace	1
+Dizzee Rascal	3
+Doja Cat	1
+Dominic Fike	1
+Donell Jones	2
+Dr. Dre	3
+Drake	23
+Dua Lipa	4
+Duck Sauce	1
+Duffy	1
+Duke Dumont	2
+Dynoro	1
+E-40	1
+EO	1
+Eamon	1
+Echosmith	1
+Ed Sheeran	9
+Edward Maya	2
+Eiffel 65	1
+Electric Six	1
+Ella Henderson	1
+Ella Mai	1
+Ellie Goulding	6
+Elliott Yamin	1
+Elvis Presley	1
+Emeli Sandé	1
+Eminem	21
+Emma Bunton	1
+Empire of the Sun	1
+Enrique Iglesias	9
+Enya	1
+Eric Prydz	3
+Erick Sermon	1
+Erykah Badu	1
+Estelle	1
+Evanescence	3
+Eve	2
+Example	2
+FINNEAS	1
+Fabolous	4
+Faith Evans	1
+Faith Hill	2
+Faithless	1
+Fall Out Boy	5
+Far East Movement	2
+Fat Joe	3
+Fatman Scoop	1
+Fedde Le Grand	2
+Felix Jaehn	1
+Fergie	5
+Fetty Wap	3
+Fifth Harmony	3
+Finger Eleven	2
+Fitz and The Tantrums	1
+Five	1
+Flipp Dinero	1
+Flo Rida	11
+Floetry	1
+Florence + The Machine	1
+Florida Georgia Line	1
+Flume	2
+Foo Fighters	2
+Fort Minor	2
+Foster The People	1
+Fragma	1
+Frank Ocean	2
+Frankie J	1
+Franz Ferdinand	2
+French Montana	1
+Fuel	1
+Future	2
+G-Eazy	5
+G-Unit	1
+G.R.L.	1
+Gabriella Cilmi	1
+Gabrielle	3
+Galantis	2
+Gareth Gates	2
+Garrett Nash	1
+Gary Jules	1
+Gavin DeGraw	1
+George Michael	1
+Geri Halliwell	1
+Gesaffelstein	1
+Gigi D'Agostino	2
+Ginuwine	2
+Girls Aloud	4
+Gnarls Barkley	1
+Good Charlotte	1
+Gorgon City	1
+Gorillaz	3
+Gotye	1
+Green Day	3
+Grimes	1
+Grouplove	1
+Guru Josh Project	1
+Guy Sebastian	1
+Gwen Stefani	5
+Gym Class Heroes	4
+Halsey	2
+Hayden James	1
+Hilltop Hoods	1
+Hinder	2
+Holly Valance	1
+Hoobastank	1
+Hot Chelle Rae	1
+Houston	1
+Hozier	1
+Huey	1
+Hugh Jackman	1
+INNA	1
+Icona Pop	2
+Ida Corr	1
+Iggy Azalea	2
+Illy	1
+Imagine Dragons	6
+Infernal	1
+Iyaz	1
+J Balvin	1
+J-Kwon	1
+J. Cole	2
+J. Holiday	2
+JAY-Z	12
+JLS	2
+JUVENILE	1
+Ja Rule	3
+Jack White	1
+Jack Ü	1
+Jagged Edge	3
+Jaheim	1
+Jamelia	1
+James Arthur	1
+James Blunt	4
+James Morrison	5
+Jamie Foxx	1
+Jamiroquai	1
+Janet Jackson	2
+Jason Aldean	2
+Jason Derulo	13
+Jax Jones	4
+Jay Rock	1
+Jay Sean	4
+Jeezy	2
+Jennifer Hudson	1
+Jennifer Lopez	10
+Jeremih	4
+Jessica Simpson	2
+Jessie J	4
+Jibbs	1
+Jim Jones	1
+Jimmy Eat World	1
+JoJo	2
+Joe	2
+Joel Adams	1
+Joel Corry	1
+John Legend	2
+John Newman	1
+Jon Bellion	1
+Jonas Blue	5
+Jonas Brothers	3
+Jordin Sparks	3
+Juanes	1
+Juice WRLD	2
+Junior Senior	1
+Just Jack	1
+Justin Bieber	10
+Justin Timberlake	12
+K'NAAN	1
+K-Ci & JoJo	1
+KALEO	1
+KT Tunstall	2
+Kaiser Chiefs	3
+Kandi	1
+Kanye West	17
+Kardinal Offishall	1
+Kasabian	1
+Katie Melua	2
+Katy Perry	16
+Keane	1
+Kehlani	1
+Kelis	4
+Kelly Clarkson	7
+Kelly Rowland	4
+Kendrick Lamar	6
+Kent Jones	1
+Keri Hilson	3
+Kesha	8
+Kevin Gates	1
+Kevin Lyttle	1
+Kevin Rudolf	1
+Keyshia Cole	3
+Khalid	2
+Khia	1
+Kid Cudi	1
+Kid Ink	1
+Kiesza	1
+Kiiara	1
+Kings of Leon	2
+Klangkarussell	1
+Klaxons	1
+Klingande	1
+Kodak Black	2
+Kris Allen	1
+Kungs	1
+Kygo	4
+Kylie Minogue	7
+LL Cool J	3
+LMC	1
+LMFAO	3
+La Roux	2
+Labrinth	1
+Lady A	2
+Lady Gaga	11
+Lana Del Rey	6
+Las Ketchup	1
+Lasgo	1
+Lauv	2
+LeAnn Rimes	2
+Lemaitre	1
+Lemar	1
+Lenny Kravitz	1
+Leona Lewis	4
+Lewis Capaldi	1
+Liam Payne	2
+Liberty X	1
+Lifehouse	1
+Lil Baby	1
+Lil Dicky	1
+Lil Jon	1
+Lil Jon & The East Side Boyz	2
+Lil Nas X	3
+Lil Peep	1
+Lil Pump	1
+Lil Tecca	1
+Lil Uzi Vert	1
+Lil Wayne	8
+Lil' Flip	1
+Lil' Kim	2
+Lilly Wood and The Prick	1
+Lily Allen	3
+Limp Bizkit	3
+Linkin Park	9
+Little Mix	3
+Lloyd	3
+Lloyd Banks	1
+Logic	1
+Lorde	4
+Lost Frequencies	1
+Loud Luxury	1
+Lucenzo	1
+Ludacris	9
+Luis Fonsi	2
+Lumidee	1
+Lunay	1
+Lupe Fiasco	2
+Lykke Li	1
+M.I.A.	1
+M.O	1
+M.O.P.	1
+M83	1
+MAGIC!	1
+MARINA	2
+MEDUZA	1
+MGMT	2
+MIKA	2
+MK	1
+MKTO	1
+MNEK	1
+Mabel	2
+Mac Miller	1
+Machine Gun Kelly	1
+Macklemore	1
+Macklemore & Ryan Lewis	2
+Madcon	1
+Madison Avenue	1
+Madonna	8
+Maggie Lindemann	1
+Major Lazer	3
+Maluma	1
+Manic Street Preachers	1
+Mann	1
+Marc Anthony	1
+Mariah Carey	8
+Marilyn Manson	1
+Mario	2
+Mario Winans	1
+Mark Ronson	4
+Maroon 5	13
+Marshmello	6
+Martin Garrix	3
+Martin Jensen	1
+Martin Solveig	1
+Mary J. Blige	6
+Mary Mary	1
+Matchbox Twenty	2
+Matt Cardle	1
+Meck	1
+Meek Mill	2
+Megan Thee Stallion	1
+Meghan Trainor	3
+Melanie C	2
+Metro Station	1
+MiMS	1
+Michael Jackson	1
+Michel Teló	1
+Michelle Branch	1
+Migos	6
+Miguel	1
+Mike Perry	1
+Mike Posner	2
+Miley Cyrus	5
+Milky Chance	1
+Mis-Teeq	2
+Missy Elliott	8
+Modjo	1
+Moloko	1
+Monica	1
+Montell Jordan	1
+Mr. Probz	1
+Mumford & Sons	1
+Muse	2
+Musiq Soulchild	2
+Mustard	1
+My Chemical Romance	2
+Mystikal	1
+MØ	1
+Mýa	2
+N.E.R.D	1
+N.O.R.E.	1
+NF	1
+NLE Choppa	1
+NSG	1
+Nas	1
+Natalie Imbruglia	1
+Natalie La Rose	1
+Natasha Bedingfield	2
+Natti Natasha	1
+Naughty Boy	1
+Ne-Yo	8
+Nelly	11
+Nelly Furtado	5
+Neon Trees	1
+Next	1
+Nick Jonas	2
+Nick Lachey	1
+Nickelback	9
+Nicki Minaj	5
+Nicky Jam	2
+Nico & Vinz	1
+Nicole Scherzinger	1
+Nina Sky	1
+Nio Garcia	1
+No Doubt	5
+Normani	1
+O-Zone	1
+O.T. Genasis	1
+OPM	1
+Oasis	1
+Of Monsters and Men	1
+Offset	2
+Oliver Heldens	1
+Olly Murs	5
+Omarion	2
+One Direction	9
+OneRepublic	8
+Orson	1
+Otto Knows	1
+Outkast	5
+Owl City	2
+Ozuna	1
+P!nk	15
+P.O.D.	1
+PARTYNEXTDOOR	1
+PSY	1
+Paloma Faith	1
+Panic! At The Disco	2
+Panjabi MC	1
+Papa Roach	1
+Paramore	2
+Passenger	1
+Paulo Londra	1
+Pedro Capó	1
+Peking Duk	1
+Pendulum	1
+Petey Pablo	1
+Petit Biscuit	1
+Pharrell Williams	2
+Philip George	1
+Pia Mia	1
+Pitbull	9
+Pixie Lott	1
+Plain White T's	1
+Plan B	1
+Playboi Carti	1
+Plies	3
+Polo G	1
+Post Malone	9
+Pretty Ricky	3
+Professor Green	1
+Puddle Of Mudd	2
+R. City	1
+Rachel Stevens	1
+Rae Sremmurd	4
+Rag'n'Bone Man	2
+Rascal Flatts	2
+Ray J	2
+Razorlight	2
+Red Hot Chili Peppers	6
+Regard	1
+Reik	1
+Rich Boy	1
+Rich Homie Quan	1
+Rich The Kid	1
+Ricky Martin	2
+Rihanna	25
+Rita Ora	4
+Rixton	1
+Rizzle Kicks	1
+Rob $tone	2
+Rob Thomas	1
+Robbie Williams	6
+Robin Schulz	1
+Robin Thicke	1
+Robyn	2
+Roger Sanchez	1
+Ronan Keating	3
+Room 5	1
+Route 94	1
+Rudimental	2
+Ruff Endz	1
+Rui Da Silva	1
+Russ Millions	1
+Ryan Cabrera	1
+S Club 7	2
+SAYGRACE	2
+Sak Noel	1
+Sam Feldt	1
+Sam Smith	7
+Sam Sparro	1
+Samantha Mumba	1
+Sammie	1
+Sandi Thom	1
+Santana	2
+Savage Garden	1
+Saving Abel	1
+Saweetie	1
+ScHoolboy Q	3
+Scissor Sisters	2
+Scooter	2
+Scouting For Girls	1
+Sean Kingston	4
+Sean Paul	9
+Sebastian Ingrosso	1
+Sech	1
+Seether	1
+Selena Gomez	9
+Selena Gomez & The Scene	3
+September	2
+Shaggy	1
+Shakira	5
+Shawn Mendes	6
+Shayne Ward	2
+Sheck Wes	1
+Sheppard	1
+Shinedown	1
+Shontelle	1
+Shop Boyz	1
+Sia	4
+Sidney Samson	1
+Sigala	3
+Sigma	1
+Silentó	1
+Simply Red	1
+Sisqo	2
+Skillet	1
+Skrillex	1
+Snoop Dogg	7
+Snow Patrol	1
+So Solid Crew	1
+Sofía Reyes	1
+Sonique	1
+Sophie Ellis-Bextor	1
+Soulja Boy	4
+Special D.	1
+Spiderbait	1
+Staind	1
+Starley	1
+Steps	1
+Stereophonics	1
+Steve Aoki	1
+Sting	1
+Storm Queen	1
+Stormzy	1
+Stromae	2
+Sugababes	7
+Sunshine Anderson	1
+Swedish House Mafia	4
+Switchfoot	1
+T-Pain	5
+T.I.	7
+T2	1
+Taio Cruz	3
+Take That	4
+Tame Impala	1
+Tamia	1
+Taylor Swift	16
+Terror Squad	1
+The All-American Rejects	2
+The Band Perry	2
+The Calling	1
+The Chainsmokers	8
+The Chemical Brothers	1
+The Corrs	1
+The Fratellis	1
+The Fray	3
+The Game	3
+The Goo Goo Dolls	1
+The Kooks	1
+The Lumineers	1
+The Neighbourhood	2
+The Notorious B.I.G.	1
+The Offspring	1
+The Prodigy	1
+The Pussycat Dolls	8
+The Raconteurs	1
+The Rasmus	1
+The Red Jumpsuit Apparatus	1
+The Roots	1
+The Saturdays	2
+The Script	2
+The Shapeshifters	1
+The Streets	1
+The Strokes	1
+The Strumbellas	1
+The Supermen Lovers	1
+The Ting Tings	2
+The Vamps	2
+The Veronicas	1
+The Wanted	3
+The Weeknd	8
+The White Stripes	1
+The xx	1
+The-Dream	2
+Thirty Seconds To Mars	1
+Three Days Grace	1
+Tim Berg	1
+Timbaland	5
+Tinashe	1
+Tinchy Stryder	1
+Tinie Tempah	3
+Tiësto	3
+Toby Keith	1
+Tom Jones	1
+Tom Odell	1
+Tom Walker	1
+Tones And I	1
+Toni Braxton	1
+Tory Lanez	2
+Tove Lo	4
+Train	2
+Trapt	1
+Travie McCoy	1
+Travis	1
+Travis Scott	5
+Trey Songz	5
+Trick Daddy	1
+Trillville	1
+Truth Hurts	1
+Tweet	1
+Twenty One Pilots	3
+Twista	3
+Two Door Cinema Club	1
+Tyga	3
+Tyler, The Creator	1
+Tyrese	1
+U2	2
+Ultrabeat	1
+Unk	1
+Usher	11
+Vance Joy	1
+Vanessa Carlton	1
+Vengaboys	1
+WILLOW	1
+Waka Flocka Flame	2
+Wale	1
+Wayne Wonder	1
+Westlife	4
+Wheatus	1
+Wiley	2
+Will Smith	1
+Will Young	2
+Wiz Khalifa	4
+Wyclef Jean	1
+X Ambassadors	2
+XXXTENTACION	4
+YG	1
+Years & Years	2
+Ying Yang Twins	2
+Ylvis	1
+Yo Gotti	1
+Yolanda Be Cool	1
+Young Money	1
+Young T & Bugsey	1
+Young Thug	1
+Youngbloodz	1
+Yung Joc	1
+ZAYN	3
+ZHU	1
+Zara Larsson	4
+Zay Hilfigerrr	1
+Zedd	4
+alt-J	1
+benny blanco	1
+blackbear	1
+blink-182	1
+fun.	1
+girl in red	1
+iann dior	2
+iio	1
+t.A.T.u.	1
+will.i.am	4
+danceability:
+Average Danceability	0.6803138373751784
+Average Danceability	0.6550627530364364
+Average Danceability	0.6777266881028938

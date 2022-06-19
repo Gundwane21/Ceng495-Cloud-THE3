@@ -37,7 +37,6 @@ public class Total {
             long duration = Long.parseLong(parsedLine[2] );
             LongWritable durationWritable = new LongWritable(duration);
             Text songName = new Text(parsedLine[1]);
-            System.out.println(String.format("songName: %s, duration: %d ", parsedLine[1] ,duration));
                 
             context.write(songName,durationWritable);
             }
@@ -61,7 +60,6 @@ public class Total {
                            Context context
                            ) throws IOException, InterruptedException {
           for(LongWritable val: values){
-            System.out.println("value"+ val.get());
             sum +=  val.get();
           }
         }
