@@ -10,8 +10,9 @@ import org.apache.hadoop.mapreduce.lib.input.*;
 import org.apache.hadoop.mapreduce.lib.output.*;
 
 import org.apache.hadoop.util.*;
+import org.apache.hadoop.io.IntWritable;
 
-public class PartitionerExample extends Configured implements Tool
+public class ExplicitlyPopular extends Configured implements Tool
 {
    //Map class
 	
@@ -48,7 +49,7 @@ public class PartitionerExample extends Configured implements Tool
    
    //Reducer class
 	
-   public static class ReduceClass extends Reducer<Text,Text,Text,IntWritable>
+   public static class ReduceClass extends Reducer<Text,Text,Text,DoubleWritable>
    {
       private int sum = 0;
       private int counter = 0;
@@ -58,20 +59,22 @@ public class PartitionerExample extends Configured implements Tool
          for (Text val : values)
          {
             String [] str = val.toString().split("\t");
-	    int popularity = Integer.parseInt(str[1]);
+	         System.out.println(str[1]);
+            int popularity = Integer.parseInt(str[1]);
             sum += popularity;
-	    counter++; 
-	}
+	         counter++; 
+	      }
 			
-//         context.write(new Text(key), new IntWritable(max));
-
       }
 
 	    @Override
     public void cleanup(Context context) throws IOException,
                                        InterruptedException
       {
- 	 context.write(new Text("Average"), new Intwritable(sum/counter) );
+         System.out.println(String.format("on cleanup sum: %d, counter: %d",sum,counter));
+      if (counter > 0){
+         context.write(new Text("Average"), new DoubleWritable((double) sum/ (double) counter) );
+         }
       }
    }
    
@@ -108,7 +111,7 @@ public class PartitionerExample extends Configured implements Tool
       Configuration conf = getConf();
 		
       Job job = new Job(conf, "explicitlyPopular");
-      job.setJarByClass(PartitionerExample.class);
+      job.setJarByClass(ExplicitlyPopular.class);
 		
       FileInputFormat.setInputPaths(job, new Path(arg[0]));
       FileOutputFormat.setOutputPath(job,new Path(arg[1]));
@@ -135,7 +138,7 @@ public class PartitionerExample extends Configured implements Tool
    
    public static void main(String ar[]) throws Exception
    {
-      int res = ToolRunner.run(new Configuration(), new PartitionerExample(),ar);
+      int res = ToolRunner.run(new Configuration(), new ExplicitlyPopular(),ar);
       System.exit(0);
    }
 }
